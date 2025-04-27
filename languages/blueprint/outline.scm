@@ -17,6 +17,19 @@
     id: (ident)? @name
 ) @item
 
+(menu_item
+    "item" @context
+) @item
+
+(menu_item_shorthand
+    "item" @context
+) @item
+
+(menu_section
+    "section" @context
+    id: (ident)? @name
+) @item
+
 (menu_submenu
     "submenu" @context
     id: (ident)? @name
